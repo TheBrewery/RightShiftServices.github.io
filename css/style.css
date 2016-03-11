@@ -414,7 +414,7 @@ padding:70px 0;
 }
 
 .content-1-4 .image-container .background-image-holder {
-	background: #1ABC9C url('../images/section-image-1.png') no-repeat center center;
+	background: #1ABC9C url('../images/services.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -484,6 +484,8 @@ color:#fff;
   overflow: hidden;
 }
 .team-item__img > img {
+	height: 300px;
+	margin: auto;
   border-radius: 3px;
   -webkit-transition: -webkit-transform 0.7s;
   -moz-transition: -moz-transform 0.7s;
@@ -493,10 +495,8 @@ color:#fff;
 
 .team-item-contact__link {
   display: block;
-  float: left;
-  width: 50%;
-  margin-top: 4.6px;
-  margin-bottom: 4.6px;
+  width: 200px;
+	margin: auto;
   border-radius: 3px 0 0 3px;
   text-align: center;
   line-height: 36.8px;
@@ -742,7 +742,7 @@ padding: 44px 0;
 	filter: alpha(opacity=100);
 	opacity: 1;
 }
- 
+
 @media (min-width:1200px) {
 	.modal-lg {
 		width: 1140px;
@@ -785,7 +785,7 @@ padding: 44px 0;
 }
 
 /* carousel */
-#quote-carousel 
+#quote-carousel
 {
   padding: 0 10px 30px 10px;
   margin-top: 30px;
@@ -801,17 +801,17 @@ padding: 44px 0;
   margin-top: 30px;
 }
 /* Previous button  */
-#quote-carousel .carousel-control.left 
+#quote-carousel .carousel-control.left
 {
   left: -12px;
 }
 /* Next button  */
-#quote-carousel .carousel-control.right 
+#quote-carousel .carousel-control.right
 {
   right: -12px !important;
 }
 /* Changes the position of the indicators */
-#quote-carousel .carousel-indicators 
+#quote-carousel .carousel-indicators
 {
   right: 50%;
   top: auto;
@@ -819,11 +819,11 @@ padding: 44px 0;
   margin-right: -19px;
 }
 /* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li 
+#quote-carousel .carousel-indicators li
 {
   background: #2C3E50;
 }
-#quote-carousel .carousel-indicators .active 
+#quote-carousel .carousel-indicators .active
 {
   background: #FFFFFF;
 }
@@ -858,23 +858,23 @@ padding: 44px 0;
 */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    #quote-carousel 
+@media (min-width: 768px) {
+    #quote-carousel
     {
       margin-bottom: 0;
       padding: 0 40px 30px 40px;
       color: #fff;
     }
-    
+
 }
 
 /* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
-    
+@media (max-width: 768px) {
+
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
+
     #quote-carousel .carousel-indicators {
-        bottom: -20px !important;  
+        bottom: -20px !important;
     }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
